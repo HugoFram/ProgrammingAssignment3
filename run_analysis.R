@@ -1,4 +1,4 @@
-library(dplyr)
+require(dplyr)
 
 ## Extract feature names from the feature.txt file (second column of the file)
 colNames <- read.table("UCI HAR Dataset/features.txt")[, 2]
