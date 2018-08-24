@@ -22,6 +22,7 @@ testSubjectIndices <- read.table("UCI HAR Dataset/test/subject_test.txt")
 fullInertialMeasurements <- rbind(trainSet, testSet)
 activityTypes <- rbind(trainActivityTypes, testActityTypes)
 subjectIndices <- rbind(trainSubjectIndices, testSubjectIndices)
+rm(trainActityTypes, trainSet, trainSubjectIndices, testActityTypes, testSet, testSubjectIndices)
 
 
 ## Extract only mean and standard deviations measurements (= variables containing either the word "mean" or the word "std")
