@@ -20,3 +20,19 @@
 #   the 86 next columns correspond to the 86 variables extracted previously. The values reported are
 #   the average of the variable of the corresponding column for the activity type and subject in dex
 #   of the current row.)
+
+# Variables:
+ [1] "activityNames"
+  Names of the different activities.
+ [2] "activityTypes"
+  Indices of the different activities.
+ [3] "averagedInertialMeasurements"
+  Tidy dataset produced by the process described above.
+ [4] "colNames"
+  Feature names of the originale data.
+ [5] "fullInertialMeasurements"   
+  Samsung data merged with all the original features.
+ [6] "reducedInertialMeasurements" 
+  Samsung data merged with only the features containing the words "mean" or "std".
+ [7] "subjectIndices"
+  Indices of the different subjects who performed the study.
